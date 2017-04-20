@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="horizontal">
+
+	<SurfaceView
+		android:layout_height="600dp"
+		android:layout_width="1200dp"
+		android:id="@+id/tstSurfaceView"
+		android:layout_gravity="center">
+
+	</SurfaceView>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="bottom|center_horizontal|fill_horizontal"
+		android:paddingBottom="30dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="中型文本"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:gravity="center_horizontal"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

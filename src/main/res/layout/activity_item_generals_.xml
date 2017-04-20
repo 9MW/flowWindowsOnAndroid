@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.example.day05_01.ItemGenerals_Activity">
+
+	<ImageView
+		android:id="@+id/ivThumb"
+		android:layout_width="30sp"
+		android:layout_height="30sp"
+		android:src="@drawable/ic_launcher"/>
+
+	<TextView
+		android:id="@+id/appName"
+		android:layout_width="wrap_content"
+		android:layout_height="80dp"
+		android:text="白起"
+		android:layout_below="@id/ivThumb"
+		android:textSize="20sp"
+		android:layout_centerHorizontal="false"
+		android:layout_alignBaseline="@id/ivThumb"
+		android:layout_alignParentBottom="false"/>
+
+	<TextView
+		android:id="@+id/netSpeed"
+		android:layout_toRightOf="@id/ivThumb"
+		android:layout_width="wrap_content"
+		android:layout_height="80dp"
+		android:text="白起"
+		android:layout_marginLeft="25dp"
+		android:textSize="20sp"/>
+
+</RelativeLayout>
